@@ -1,5 +1,6 @@
 .section-container {
   width: 100%;
+  border-radius: 50px;
   height: auto;
   display: flex;
   flex-direction: column;
