@@ -1,0 +1,40 @@
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem; 
+}
+
+.depo {
+  flex: 1 1 300px;
+  width: 300px;
+  background-color: #5d5d5d;
+  padding: 2rem 1rem;
+  border-radius: 5px;
+}
+
+.depo img {
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.depo h3 {
+  margin: 0.7rem 0;
+}
+
+.depo p {
+  font-size: 1rem;
+}
+
+.section-4 h2 {
+  font-size: 2rem;
+  margin: 0.6rem 0;
+  color: #5d5d5d;
+}
+
+.grid-card {
+  display: grid;
+  align-items: center;
+  grid-template-rows: auto;
+}

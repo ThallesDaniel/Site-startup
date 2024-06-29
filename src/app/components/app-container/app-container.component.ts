@@ -4,6 +4,7 @@ import {InfosComponent} from "../infos/infos.component";
 import {SobreNosComponent} from "../sobre-nos/sobre-nos.component";
 import {ProdutosComponent} from "../produtos/produtos.component";
 import {FooterComponent} from "../footer/footer.component";
+import {DepoimentosComponent} from "../depoimentos/depoimentos.component";
 
 @Component({
   selector: 'app-app-container',
@@ -13,7 +14,8 @@ import {FooterComponent} from "../footer/footer.component";
     InfosComponent,
     SobreNosComponent,
     ProdutosComponent,
-    FooterComponent
+    FooterComponent,
+    DepoimentosComponent
   ],
   templateUrl: './app-container.component.html',
   styleUrl: './app-container.component.css'
