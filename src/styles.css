@@ -8,6 +8,9 @@ body {
 a {
   text-decoration: none;
 }
+h2{
+  color: #5d5d5d;
+}
 ul {
   list-style: none;
   padding: 0;

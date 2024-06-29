@@ -1,13 +1,13 @@
 .flex {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem; 
+  gap: 1rem;
 }
 
 .depo {
   flex: 1 1 300px;
   width: 300px;
-  background-color: #5d5d5d;
+  background-color: #e7e7e7;
   padding: 2rem 1rem;
   border-radius: 5px;
 }
@@ -27,14 +27,23 @@
   font-size: 1rem;
 }
 
-.section-4 h2 {
+.section-4{
   font-size: 2rem;
-  margin: 0.6rem 0;
+  margin: 2rem 0 1rem 0;
   color: #5d5d5d;
-}
 
+    & h2 {
+    font-size: 2rem;
+    margin: 0.6rem 0;
+    color: #5d5d5d;
+  }
+}
 .grid-card {
   display: grid;
   align-items: center;
   grid-template-rows: auto;
+}
+
+.t-center {
+  text-align: center;
 }
