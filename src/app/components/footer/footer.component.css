@@ -1,0 +1,16 @@
+
+footer {
+  padding: 1rem 0;
+  background: #e7e7e7;
+  text-align: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.social, .copyright {
+  margin: 1rem;
+}
+
+.social li {
+  display: inline-block;
+}

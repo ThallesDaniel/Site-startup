@@ -1,0 +1,22 @@
+.barra-privacidade {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f0f0f0;
+  padding: 15px;
+  text-align: center;
+  z-index: 1000;
+}
+
+.barra-privacidade a {
+  color: #007bff;
+}
+
+.barra-privacidade button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}

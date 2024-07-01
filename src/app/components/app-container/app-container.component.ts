@@ -6,6 +6,7 @@ import {ProdutosComponent} from "../produtos/produtos.component";
 import {FooterComponent} from "../footer/footer.component";
 import {DepoimentosComponent} from "../depoimentos/depoimentos.component";
 import {MapasComponent} from "../mapas/mapas.component";
+import {PoliticasComponent} from "../politicas/politicas.component";
 
 @Component({
   selector: 'app-app-container',
@@ -17,7 +18,8 @@ import {MapasComponent} from "../mapas/mapas.component";
     ProdutosComponent,
     FooterComponent,
     DepoimentosComponent,
-    MapasComponent
+    MapasComponent,
+    PoliticasComponent
   ],
   templateUrl: './app-container.component.html',
   styleUrl: './app-container.component.css'
