@@ -1,0 +1,17 @@
+.privacy-policy {
+  max-width: 800px; /* Largura máxima do conteúdo */
+  margin: 50px auto; /* Centraliza horizontalmente */
+  padding: 20px;
+  font-family: sans-serif;
+  line-height: 1.6;
+}
+
+.privacy-policy h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.privacy-policy p {
+  text-align: justify; /* Justifica o texto */
+  margin-bottom: 20px;
+}
